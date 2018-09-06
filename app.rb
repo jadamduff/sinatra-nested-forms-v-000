@@ -19,6 +19,7 @@ module FormsLab
       end
 
       @ship1 = Ship.all[0]
+      @ship2 = Ship.all[1]
 
       erb :'pirates/show'
     end
